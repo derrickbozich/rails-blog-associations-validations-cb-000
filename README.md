@@ -28,6 +28,8 @@ rails g model PostTag post_id:integer tag_id:integer --no-test-framework
 
 rails d model PostsTag
 
+rails g migration add_content_to_posts content:text
+
 
 
 ## Validations
