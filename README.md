@@ -21,7 +21,7 @@ This is the second lab iteration off of [Rails Blog Scaffold](https://github.com
 6. `create` the database, `migrate` the schema, and `seed` it.
 7. Make the model association tests pass.
 
-# rails g resource User name:string post_id:integer --no-test-framework
+# rails g resource User name:string --no-test-framework
 # rails g resource Tag name:string --no-test-framework
 # rails generate migration add_user_id_to_posts user_id:integer
 # rails g model PostsTag post_id:integer tag_id:integer --no-test-framework
